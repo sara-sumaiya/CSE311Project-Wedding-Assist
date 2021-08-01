@@ -1,0 +1,93 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+
+\usepackage[document]{ragged2e}
+\begin{document}
+
+\begin{title page}
+    
+    \begin{center}
+        \Huge{\textbf{North South University}
+        \\[0.5cm]
+        \large{\textit{Department of Electrical and Computer Engineering}
+        \\[0.5cm]
+        \line(1,0){300}\\[0.25cm]
+        \Huge{\bfseries{"Wedding Assist"} }
+        \line(1,0){300}
+        \\[.5in]
+        \item Project Proposal\\
+        \item CSE311L (Database System Lab)
+        \Large{Section: 1\\Semester: Summer 2021}
+        \line(1,0){250}\\[1cm]
+    \end{center}
+    
+    \begin{flushleft}
+        \large{\bfseries Student Name and ID}\\
+        \begin{itemize}
+        \item Sumaiya Afroz Sara, ID-1911236642
+        \item Github link: https://github.com/sara-sumaiya/CSE311Project-Wedding-Assist
+        \\ [1.5cm]
+         \end{itemize}
+    \end{flushleft}
+    
+    \begin{flushright}
+    \large{\bfseries Course Faculty:}\\
+    \textsc{MR. AHMED FAHMIN\\Lecturer}\\[0.5cm]
+    \large{\bfseries Lab Instructor:}\\
+    \textsc{Nazmul Alam Dipto}\\[2.5cm]
+    \end{flushright}
+    
+\end{title page}
+
+\begin{page1}
+    \begin{flushleft}
+    \large{\bfseries Introduction}\\[0.5cm]
+    \justify{Most families in our country like to celebrate weddings grandly with friends and family. Thus the organization of a wedding following our wedding culture is quite tiresome and requires a lot of time to look for different vendors that align with the overall requirements. Despite this hectic wedding culture we follow, there is very few application or websites to help in the process. Thus this web application will help organizing weddings so that the entire tiring process can be easy and time-effective. This platform will help search, analyze and book wedding vendors such as photographers, makeup artists, caterers, decorators etc. based on the user's requirements.}\\[1cm]
+    
+    \end{flushleft}
+    
+    \begin{flushleft}
+    \large{\bfseries Objectives:}
+    \end{flushleft}
+    \begin{itemize}
+        \item Provide users/clients easy access to different vendors.
+        \item Clients can access different price range,location,pictures of previous works of vendors and choose according to their requirements.
+        \item Clients can view ratings and also provide their own ratings and review of their experience with a vendor.
+        \item Vendors can also sign up and display their business information, work samples and price ranges to  clients.
+        \item Clients can make an appointment to further discuss with a chosen vendor. \\[1.5cm]
+    \end{itemize}
+    
+    \begin{flushleft}
+    \large{\bfseries Targeted Customers:}
+    \end{flushleft}
+    
+    \begin{itemsize}
+        \item Families/Couples : They will be able to access name,location,contact number, price ranges, previous works and ratings of vendors. \\[.5cm]Vendors: They will be able to display their business information, work samples and price ranges to  clients. They will also be able to view information of the clients when they make an appointment and contact them to further discuss their requirements and costs.\\[2cm]
+    \end{itemsize}
+    
+
+    
+    \begin{flushleft}
+    \large{\bfseries Value Propositions:}
+        \justify{Decrease the hassle of finding and contacting hundreds of different vendors. Thus both time and energy will be saved. New vendors without any platform will get an immediate platform to present their work and get clients.}
+        \\[1cm]
+    \large{\bfseries Tools and Resources:}
+    \begin{itemize}
+        \item HTML5
+        \item Javascript
+        \item PHP
+        \item MySql
+        \item Web Server
+        \\[1cm]
+    \end{itemize}
+    
+    \begin{flushleft}
+    \large{\bfseries Website Features and Description:}
+    \justify{The web page will open with a little introduction to the website and asking if they are a client or a vendor.\\[.5cm]People wanting to sign up as a vendor  will be taken to another page to either login or register as a vendor. Vendors have to submit their Business Name, Email, Contact Number, location, business category and a password during the sign up process or login using their business name and password. After signing up they can further add pictures and other information to set up the profile.\\[.5cm]Clients looking for vendors for a wedding will be taken to a page where they can register using their Name,Address,Email,Contact Number and a Password or login using their name and password.They can then login to search for different vendors or book an appointment. Clients will also be able leave reviews to vendors and rate them based on their experience with that vendor after the process.}
+    
+    \end{flushleft}
+\end{flushleft}
+\end{page1}
+
+\end{document}
