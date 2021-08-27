@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    background-position:center;
+    background: url(/assets/logos/flower-wedding-event_1150-5631.jpg);
+    background-size: cover;
+
+}
+div.main{
+    width: 700px;
+    margin: 100px auto 0px auto;
+    position:absolute;
+    padding-left: 400px;
+    user-select: none;
+}
+h2{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    user-select: none;
+}
+div.login{
+    background-color: rgba(99, 95, 104, 0.76);
+    width: 150px auto opx auto;
+    font-size: 18px;
+    border-radius: 2px;
+    border: 3px solid rgba(117, 110, 128, 0.596);
+    box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+    color:rgb(0, 0, 0);
+    text-align:left;
+    padding-left: 45px;
+
+}
+form #login{
+    margin: 38px;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    text-align:left;
+}
+
+label,h2{
+    text-shadow:1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.box{
+    width:35rem;
+    height: 1.5rem;
+}
+.submit{
+    width: 140px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    border:1px solid rgba(255,255,255,0.3);
+    border-radius: 3px;
+    padding: 8px;
+    background-color: rgb(172, 5, 5);
+    color: black;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+    margin-left: 220px;
+    margin-top:55px;
+    margin-bottom: 55px;
+    user-select: none;
+   
+}

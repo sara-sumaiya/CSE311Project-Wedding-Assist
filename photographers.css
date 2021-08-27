@@ -1,0 +1,27 @@
+.col-sm{
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.container{
+    text-align:center;
+    background:url(/assets/logos/flower-wedding-event_1150-5631.jpg);
+    background-size: cover;
+}
+
+.info .card{
+    margin-bottom: -20%;
+}
+.headline{
+    color: rgb(41, 32, 53);
+    font-size: 50px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 7%;
+    font-style: italic;
+   
+}
